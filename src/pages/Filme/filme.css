@@ -4,6 +4,8 @@ a {
 
 .containerFilme {
     display: block;
+    max-width: 1280px;
+    margin:0 auto;
     background-color: #232323;
     width: 100%;
     z-index: 1;

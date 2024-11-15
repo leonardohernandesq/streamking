@@ -5,9 +5,15 @@
 }
 
 .headerTitle {
-    padding: 90px 40px;
+    width: 100%;
+    padding: 90px 0px;
     background-color: #FF931E;
     margin-bottom: 40px;
+}
+
+.headerTitle div{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .headerTitle h1 {
@@ -18,10 +24,11 @@
 }
 
 .listaFilmes {
-    max-width: 100%;
+    width:100%;
+    max-width: 1280px;
     display: flex;
     flex-flow: wrap;
-    margin: 0 20px;
+    margin: 0 auto;
 }
 
 .listaFilmes article {
