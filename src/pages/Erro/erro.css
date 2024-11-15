@@ -1,0 +1,24 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 209px);
+    background-color: #232323;
+    color: #fff;
+}
+
+.notFound h1 {
+    font-size: 54px;
+    color: #FF931E;
+    margin-bottom: 10px;
+}
+
+.notFound a {
+    color: #232323;
+    background-color: #FF931E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}

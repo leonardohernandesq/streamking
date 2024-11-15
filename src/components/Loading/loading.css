@@ -1,0 +1,26 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+    color: #FF931E;
+    height: 80vh;
+}
+
+.loading span {
+    animation: is-rotating 1s infinite;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: solid 5px #444444;
+    border-top-color: #FF931E;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
