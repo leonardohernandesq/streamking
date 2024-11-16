@@ -10,7 +10,12 @@ a {
     margin-bottom: 20px;
 }
 
+.containerFilme div{
+    position: relative;
+}
+
 .containerFilme img {
+    position: relative;
     width: 100%;
     max-width: 100%;
     z-index: 2;
@@ -22,6 +27,14 @@ a {
     justify-content: center;
 }
 
+#linkRolldown{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
 .rolldown {
     display: flex;
     justify-content: center;
@@ -30,31 +43,38 @@ a {
     height: 50px;
     border-radius: 25px;
     background-color: #FF931E;
-    margin-top: -70px;
+        
     z-index: 10;
 }
 
 .genresContainer {
     display: flex;
-    position: relative;
+    position: absolute !important;
     justify-content: center;
     align-items: center;
     height: 40px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 140px;
     background-color: #FF931E;
     border-radius: 200px;
-    margin: -60px 0px 60px 40px;
     cursor: default;
     box-shadow: 0px 0px 20px #23232380;
+    z-index: 9999;
 }
 
+
 .containerFilme span {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
+    color:#232323;
 }
 
 .detailsContainer {
-    padding: 20px 40px 0 40px;
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 20px auto;
 }
 
 .detailsContainer h1 {

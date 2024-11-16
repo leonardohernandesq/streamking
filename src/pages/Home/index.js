@@ -37,8 +37,10 @@ function Home() {
     return (
         <div className='container'>
             <div className='headerTitle'>
-                <h1>Filmes em Cartaz</h1>
-                <p>Clique no filme abaixo para conhecer mais sobre!</p>
+                <div>
+                    <h1>Filmes em Cartaz</h1>
+                    <p>Clique no filme abaixo para conhecer mais sobre!</p>
+                </div>
             </div>
             <div className='listaFilmes'>
                 {filmes.map((filme) => {

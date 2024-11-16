@@ -5,7 +5,7 @@ import Filme from './pages/Filme';
 import Header from './components/Header/';
 import Footer from './components/Footer';
 import Erro from './pages/Erro';
-import Favoritos from './pages/Filme/Favoritos';
+import Favoritos from './pages/Favoritos';
 
 function RoutesApp() {
     return (

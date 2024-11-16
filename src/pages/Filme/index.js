@@ -68,15 +68,17 @@ function Filme() {
 
     return (
         <div className='containerFilme'>
-            <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path}`} alt={`Titulo de ${filme.title}`} />
-            <div className='genresContainer'>
-                <span>{filme.genres[0].name}</span>
-            </div>
-            <a href="#detailsContainer">
-                <div className='rolldownContainer'>
-                    <span className='rolldown'>\/</span>
+            <div>
+                <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path}`} alt={`Titulo de ${filme.title}`} />
+                <div className='genresContainer'>
+                    <span>{filme.genres[0].name}</span>
                 </div>
-            </a>
+                <a id='linkRolldown' href="#detailsContainer">
+                    <div className='rolldownContainer'>
+                        <span className='rolldown'>\/</span>
+                    </div>
+                </a>
+            </div>
             <div className='detailsContainer' id='detailsContainer'>
                 <h1>{filme.title}</h1>
                 <p>{filme.overview}</p>
